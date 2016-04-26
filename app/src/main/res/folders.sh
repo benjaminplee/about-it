@@ -2,7 +2,7 @@
 
 for dpi in ldpi mdpi hdpi xhdpi xxhdpi xxxhdpi; do
   for orient in port land; do
-    for size in small medium large; do
+    for size in small normal large xlarge; do
       folder="drawable-$size-$orient-$dpi"
       echo "-----" $folder "-----"
 

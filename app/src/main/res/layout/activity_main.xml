@@ -22,20 +22,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:src="@mipmap/density" />
+        android:src="@drawable/dpi" />
 
     <ImageView
         android:id="@+id/orientation_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:src="@mipmap/orientation" />
+        android:src="@drawable/orient" />
 
     <ImageView
         android:id="@+id/size_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        tools:src="@android:drawable/ic_input_add" />
+        tools:src="@drawable/size" />
 
 </LinearLayout>

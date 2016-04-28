@@ -8,6 +8,7 @@ android:
     - sys-img-x86-android-23
     - extra-android-m2repository
     - extra-google-m2repository
+    - sys-img-x86-android-23
 
 script:
    - ./gradlew clean build connectedCheck test

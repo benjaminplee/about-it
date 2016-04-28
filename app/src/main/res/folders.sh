@@ -1,5 +1,7 @@
 #! /usr/bin/env bash
 
+rm -rf drawable-*-*-*
+
 for dpi in ldpi mdpi hdpi xhdpi xxhdpi xxxhdpi; do
   for orient in port land; do
     for size in small normal large xlarge; do

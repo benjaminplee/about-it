@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="Drawables from specific buckets"
+            android:text="drawables from specific bucket qualifiers"
             android:textColor="@android:color/darker_gray"
             android:textSize="16sp" />
 
@@ -51,7 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="Drawables from generic buckets"
+            android:text="drawables from generic buckets qualifiers"
             android:textColor="@android:color/darker_gray"
             android:textSize="16sp" />
 
